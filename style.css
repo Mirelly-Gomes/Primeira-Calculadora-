@@ -1,0 +1,108 @@
+.centroCall{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.fundo{
+    background-image: linear-gradient(to left, #547891,  #3b6785,#173b64,#083263);
+}
+
+.corpoCal{
+    background-color: rgb(135, 187, 255); 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 250px; 
+    height: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    color: #ffffff; 
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.titulo{
+    color: #2d65ad;
+    text-align: left;
+    height: 10px;
+}
+
+.alinhar{
+    text-align: right;
+    width: 45px;
+    height:25px;
+}
+
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:active {
+    opacity: 0.7; 
+  }
+  
+  .btNum:active {
+    background-color: rgb(190, 188, 188); 
+  }
+  
+  .btOp:active {
+    background-color: rgb(197, 111, 5); 
+  }
+
+
+.c{
+    height:20px;
+    font-size: small;
+    color: #fff3f3;
+    background-color: lightcoral;
+    
+}
+
+.visor{
+    text-align: right;
+    color: rgb(26, 24, 24);
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(189, 180, 180);
+    width: 250px;
+    height:40px;
+    border-radius: 5px;
+}
+
+
+.btResult{
+    color: #fff3f3;
+   background-color:#1e67bb; 
+    width: 118px;
+    height: 35px;
+    font-size:large;
+    
+}
+
+
+.btNum{
+    color: chocolate;
+    background-color:rgb(255, 255, 255);
+    width: 55px;
+    height:35px;
+    font-size:large;
+    
+}
+
+
+.btOp{
+    color: #fff3f3;
+    background-color: coral;
+    width: 55px;
+    height:35px;
+    font-size:large;
+   
+}
+
+
+
