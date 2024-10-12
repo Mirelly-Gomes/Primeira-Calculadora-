@@ -15,11 +15,3 @@ function calcular(){
  }          
 }
 
-// Eval()
-// expressão matemática
-const resultado = eval(3 + 4) 
-    console.log(resultado) 
-
-    // expressão lógica 
-    let condicao = eval("5 > 3")
-    console.log(condicao)
